@@ -40,7 +40,8 @@ function decrement () {
   if (number === 0) {
     stop();
     alert("Time's up!")
-  }else{
+  }
+  if (number < 0) {
     document.location.reload(true);
   }
 }
@@ -61,7 +62,7 @@ function stop(){
   }, {
     question: "What is 3*6?",
     choices: [3, 6, 9, 12, 18],
-    correctAnswer: 4
+    correctAnswer: 6
   }];
   
   var questionCounter = 0; //Tracks question number
