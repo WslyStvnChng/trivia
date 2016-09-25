@@ -12,8 +12,8 @@ body {
 
 .container {
 	float:left;
-	margin-left:18%;
 	clear: both;
+    margin-left: 36%;
 }
 
 .bodycontainer {
